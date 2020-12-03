@@ -16,7 +16,7 @@ class Graph {
 
     public static void main(String[] args) {
         Graph graph = new Graph();
-        graph.addVertex("Бог1");
+         graph.addVertex("Бог1");
 
         System.out.println(graph);
 
