@@ -5,18 +5,18 @@ import java.util.Map;
 
 class Graph {
 
-    private final Map<Vertex, List<Vertex>> adjVertices;
+      final Map<Vertex, List<Vertex>> adjVertices;
 
     // standard constructor, getters, setters
 
 
-    public Graph() {
+          public Graph() {
         adjVertices = new HashMap<>();
     }
 
     public static void main(String[] args) {
         Graph graph = new Graph();
-        graph.addVertex("Бог");
+        graph.addVertex("Бог1");
 
         System.out.println(graph);
 
